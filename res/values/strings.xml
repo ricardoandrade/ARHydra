@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TesteDroidARActivity!</string>
+    <string name="app_name">ARHydra</string>
+    <string name="scanning">Procurando dispositivos</string>
+    <string name="select_device">Selecione um dispositivo para conectar</string>
+    <string name="none_found">Nenhum dispositivo encontrado</string>
+    <string name="title_other_devices">Outros dispositivos disponíveis</string>
+    <string name="button_scan">Procurar por dispositivos</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Conectar um dispositivo</string>
+    <string name="all">Todos</string>
+    <string name="camera">Câmera</string>
+    <string name="exibir_relatorio">Relatório</string>
+    <string name="resetar_relatorio">Resetar Relatório</string>
+    <string name="enviar_relatorio">Enviar Relatório</string>
+    <string name="configuracoes">Configurações</string>
+    
+
+    <!-- Drivers -->
+    <string name="camera_driver">Camera</string>
+    <string name="hydra_app">Hydra</string>
+    <string name="keyboard_driver">Teclado</string>
+    <string name="mouse_driver">Mouse</string>
+    <string name="screen_driver">Tela</string>
+
+</resources>

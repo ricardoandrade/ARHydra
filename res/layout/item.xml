@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<br.unb.unbiquitous.widget.CheckableRelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:marvinlabs="http://schemas.android.com/apk/res/fr.marvinlabs.selectablelisttutorial"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:layout_marginRight="10dp"
+	android:paddingTop="5dp"
+	android:paddingBottom="5dp">
+
+   
+	<TextView android:id="@+id/driverName"
+		android:layout_width="wrap_content" 
+		android:layout_height="fill_parent"
+		android:layout_centerVertical="true" 
+		android:textSize="13dp"
+		android:textColor="#feee" 
+		android:focusable="false" />	
+
+	<br.unb.unbiquitous.widget.InertCheckBox android:id="@+id/itemCheckBox"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginRight="5dp"
+		android:layout_alignParentRight="true" 
+		android:layout_centerVertical="true" 
+		android:focusable="false" 
+		android:button="@drawable/checkbox" />
+			
+</br.unb.unbiquitous.widget.CheckableRelativeLayout>

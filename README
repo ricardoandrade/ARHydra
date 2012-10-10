@@ -1,0 +1,9 @@
+Projeto criado e testado na versão:
+
+Android SDK Tools - Rev. 15
+Androis SDK Plataform-tools - Rev. 9
+
+Após a atualização de todos os componentes (Eclipse, plugin m2e, Android ADT e SDK) por alguma razão para as configurações
+feitas no pom.xml estavam apresentando a mensagem de erro informando a duplicidade de algumas bibliotecas. No entanto, esse
+problema já tinha sido solucionado e a integração dos projetos unbiquitos, utilizando o maven, com a ARHydra estava ocorrendo
+sem problemas.

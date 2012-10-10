@@ -1,0 +1,9 @@
+package br.unb.unbiquitous.util;
+
+public enum TipoMedicao {
+	PRIMEIRA_APARICAO,
+	RECORRENCIA,
+	RECONHECIMENTO_AO_PERDER_MARCADOR,
+	NAO_CONSEGUIU_DECODIFICAR,
+	PERDEU_MARCADOR;
+}

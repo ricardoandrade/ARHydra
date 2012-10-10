@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+		<ListView 
+		    android:id="@+id/list" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="0px" 
+		    android:layout_weight="1"/> 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="#ECECEC"
+            android:id="@+id/titulo_driver"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F9BBF" />
+
+        <ListView
+            android:id="@+id/tela_consulta_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#ECECEC"
+            android:dividerHeight="1sp" />
+        
+        
+	
+        
+
+</LinearLayout>

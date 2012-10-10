@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.unb.unbiquitous.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/uos_logo"
+        android:label="@string/app_name" >
+		<activity
+            android:screenOrientation="unspecified"  android:configChanges="orientation|keyboardHidden"
+            android:name=".ListViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+		<activity
+            android:screenOrientation="unspecified"  android:configChanges="orientation|keyboardHidden"
+            android:name=".MainUOSActivity"
+            android:label="@string/app_name" >
+            
+		    
+		     <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+		</activity>
+
+		<activity android:label="@string/app_name"
+			android:screenOrientation="landscape" android:configChanges="keyboardHidden"
+			android:name="com.google.droidar.system.ArActivity">
+		</activity>
+
+		<!-- Custom List is used to easily display lists of any type of object -->
+		<activity android:name="com.google.droidar.gui.CustomListActivity"></activity>
+
+		<!-- the error handler will be automatically displayed when an error appears -->
+		<activity android:name="com.google.droidar.system.ErrorHandler" android:process=":myexeptionprocess"
+			android:taskAffinity="com.google.droidar.system.ErrorHandler">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+				<action android:name="android.intent.action.VIEW" />
+				<data android:mimeType="errors/myUnhandleCatcher" />
+			</intent-filter>
+		</activity>
+
+		<!-- is needed to display information on application startup -->
+		<activity android:theme="@android:style/Theme.Dialog"
+			android:name="com.google.droidar.gui.InfoScreen"></activity>
+
+		<!-- an activity to easily display any kind of ui -->
+		<activity android:theme="@android:style/Theme.Translucent"
+			android:name="com.google.droidar.gui.simpleUI.SimpleUI"></activity>
+
+	</application>
+
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_FRAME_BUFFER" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+
+	<!-- This should be added to to allow the fullscreen mode to big screen 
+		devices like the samsung galaxy tab -->
+	<supports-screens android:smallScreens="true" android:normalScreens="true" 
+	    android:largeScreens="true"	android:anyDensity="true" />
+
+</manifest>

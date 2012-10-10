@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   
+     <item android:id="@+id/exibir_relatorio"
+          android:icon="@android:drawable/ic_menu_info_details"
+          android:title="@string/exibir_relatorio" />
+
+     <item android:id="@+id/resetar_relatorio"
+          android:icon="@android:drawable/ic_menu_close_clear_cancel"
+          android:title="@string/resetar_relatorio" />
+
+     <item android:id="@+id/enviar_relatorio"
+          android:icon="@android:drawable/ic_dialog_email"
+          android:title="@string/enviar_relatorio" />
+    
+     <item android:id="@+id/configuracoes"
+          android:icon="@android:drawable/ic_menu_manage"
+          android:title="@string/configuracoes" />
+     
+    <!-- 
+    <item android:id="@+id/hydra_app"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/hydra_app" />
+
+    <item android:id="@+id/camera_driver"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/camera_driver" />
+    
+    <item android:id="@+id/keyboard_driver"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/keyboard_driver" />
+
+    <item android:id="@+id/mouse_driver"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/mouse_driver" />
+
+    <item android:id="@+id/screen_driver"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/screen_driver" />
+ 
+   <item android:id="@+id/camera"
+          android:icon="@android:drawable/ic_menu_mylocation"
+          android:title="@string/camera" />
+     -->
+   
+   
+    
+</menu>
